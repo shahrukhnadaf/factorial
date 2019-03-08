@@ -1,7 +1,7 @@
 #include<stdio.h>
 int factorial(int n){
 	int i = 0, f = 1;
-	for(i = 0; i <= n + 1; i++)
+	for(i = 1; i <= n + 1; i++)
 		f *= i;
 	return f;
 }
